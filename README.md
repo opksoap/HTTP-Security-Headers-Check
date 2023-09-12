@@ -1,4 +1,4 @@
-# HTTP-Security-Headers-Check
+# HTTP-Security-Headers-Check-Tool
     HTTP güvenlik başlıkları (HTTP Security Headers), web uygulamalarının ve sitelerin daha güvenli olmasına yardımcı olan özel HTTP başlıklarıdır. 
     Bu başlıklar, web tarayıcılarına ve istemcilere belirli güvenlik önlemlerini uygulamaları konusunda talimatlar verir.
         
@@ -8,7 +8,11 @@
               
     Tool basit ve hızlı bir kullanıma sahiptir. 
     Tool, Genel Amacı HTTP Güvenlik Başlıklarını Taraması ve Eksik olan başlıklar hakkında bilgi vermesidir.
-              
+
+    Projede kullanılan python kütüphanelerinin bir çoğu 3.x sürümlerinin çoğunda standart olarak yüklenmektedir.
+    Yüklü olmayan python kütüphaneleri dahil etmek için requirements.txt dosyasını aşağıdaki komut ile çağırın.
+    pip3 install -r requirements.txt 
+    
     Kullanım Talimatları:
     (1) Siteye attığı request atar ve dönen response ile gelen Başlıkları ayıklar. 
     Burada ki ilk amaç site içerisinde var olan HTTP başlıklarını görmektir.
